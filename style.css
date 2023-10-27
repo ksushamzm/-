@@ -13,7 +13,11 @@ h4 {
     font-family: 'Lucida Console', Monaco, monospace;
 }
 html {
-    background: linear-gradient(to bottom right,#EDF1F6, #7096d1);
+    background: linear-gradient(to bottom right,#EDF1F6, #7096d1) no-repeat;
+    width: 100%;
+    height: 100%;
+
+
 }
 .button {
     width: 120px;
