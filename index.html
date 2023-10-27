@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Калькулятор ВШЭ</title>
+</head>
+<body>
+    <div>
+        <h1>Калькулятор стоимости обучения в НИУ ВШЭ 2023 </h1>
+            <h1>для 1 курса</h1>
+        <h4>Выберите направление:</h4>
+        <p>
+            <input type="checkbox" id="input1" value="220000" class="checkbox" name="1"> </input>
+            <label for="input1"> Математика </label>
+        </p>
+
+        <p>
+            <input type="checkbox" id="input2" value="220000" class="checkbox" name="2"> </input>
+            <label for="input2"> Компьютерные науки и технологии </label>
+        </p>
+
+        <p>
+            <input type="checkbox" id="input3" value="260000" class="checkbox" name="3"> </input>
+            <label for="input3"> Международный бакалавриат по бизнесу и экономике </label>
+        </p>
+
+        <p>
+            <input type="checkbox" id="input4" value="280000" class="checkbox" name="4"> </input>
+            <label for="input4"> Цифровой маркетинг </label>
+        </p>
+
+        <p>
+            <input type="checkbox" id="input5" value="220000" class="checkbox" name="5"> </input>
+            <label for="input5"> Юриспруденция </label>
+        </p>
+
+        <p>
+            <input type="checkbox" id="input6" value="190000" class="checkbox" name="6"> </input>
+            <label for="input6"> Филология </label>
+        </p>
+
+        <p>
+            <input type="checkbox" id="input7" value="280000" class="checkbox" name="7"> </input>
+            <label for="input7"> Иностранные языки и международная бизнес-коммуникация </label>
+        </p>
+
+        <p>
+            <input type="checkbox" id="input8" value="190000" class="checkbox" name="8"> </input>
+            <label for="input8"> Фундаментальная и прикладная лингвистике </label>
+        </p>
+
+        <p>
+            <input type="checkbox" id="input9" value="360000" class="checkbox" name="9"> </input>
+            <label for="input9"> Дизайн </label>
+        </p>
+
+        <h4> Введите размер скидки:</h4>
+        <p>
+            <input type="number" class="discount" placeholder="Размер скидки" id="discount" value="0" min="1" > %
+        </p> 
+
+        <button class="button" id="button">
+            Вычислить
+        </button>
+
+
+
+        <div>
+            <h4>Итоговая стоимость обучения:</h4>
+            <p id="result" class="result"> </p>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

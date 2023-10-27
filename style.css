@@ -1,0 +1,31 @@
+body {
+font-family: 'Lucida Console', Monaco, monospace;
+color: #132a69;
+}
+
+h1 {
+    text-align: center;
+    color: #081F5C;
+    font-family: 'Lucida Console', Monaco, monospace;
+}
+h4 {
+    color: #081F5C;
+    font-family: 'Lucida Console', Monaco, monospace;
+}
+html {
+    background: linear-gradient(to bottom right,#EDF1F6, #7096d1);
+}
+.button {
+    width: 120px;
+    height: 40px;
+    background: #EDF1F6;
+    border-radius: 5%;
+    border: 0,1px solid;
+    border-color: #7096d1;
+    font-family: 'Lucida Console', Monaco, monospace;
+}
+input {
+    border: 0px solid;
+    font-family: 'Lucida Console', Monaco, monospace;
+    background: #EDF1F6;
+}
